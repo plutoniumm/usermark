@@ -1,6 +1,13 @@
 {
   "name": "usermark",
+  "version": "0.0.1",
+  "author": "plutoniumm",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
   "dependencies": {
-    "rollup": "^3.26.2"
+    "rollup": "^3.26.2",
+    "vite": "^4.4.3"
   }
 }

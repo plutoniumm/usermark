@@ -1,0 +1,6 @@
+{
+  "name": "usermark",
+  "dependencies": {
+    "rollup": "^3.26.2"
+  }
+}

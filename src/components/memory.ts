@@ -14,7 +14,7 @@ function RAM (): boolean {
     mem = parseFloat(mem);
     mem = Number.isNaN(mem) ? undefined : mem;
   } catch (e) {
-    mem = undefined;
+    mem = 8;
   }
 
   return mem;
@@ -22,7 +22,7 @@ function RAM (): boolean {
 
 interface Stores {
   isLS: boolean,
-  RAM?: number | undefined
+  RAM?: number
 }
 const stores: Stores = {
   isLS: localStorage(),
